@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 100%;
+
+}
+.page1{
+    /* display: flex; */
+    border-bottom: 7px solid #373737;
+    
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(rgba(6, 6, 6, 0.699), rgba(0, 0, 0, 0.825)), url(https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg);
+   
+}
+ 
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    padding: 0.5vw 10vw;
+}
+.nav img{
+    width: 10vw;
+}
+#Language{
+    padding: .7vw 2vw;
+    border-radius: 4px;
+    background-color: black;
+}
+.right-nav{
+    width: 17vw;
+    padding: 20px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    
+}
+#Language{
+    color: white;
+}
+
+.btn{
+    padding:.7vw 1vw ;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    /* padding-left: 2px; */
+    cursor: pointer;
+}
+.page1 h1{
+    color: #fff;
+}
+.center-text{
+    height: calc(90vh - 100px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    line-height: 60px;
+}
+.center-text h1{
+    font-size: 3vw;
+    font-weight: 900;
+}
+.center-text h3{
+    font-weight: 400;
+}
+.center-text h2{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+#ipt{
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+#ipt{
+    width: 480px;
+    height: 55px;
+    padding: 10px;
+    border: 0.5px solid #dadada;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.458);
+    color: #fff;
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 680px;
+    padding-right: 40px;
+    /* background-color: #fff; */
+   
+}
+#Get{
+    font-size: 20px;
+        width: 150px;
+        height: 55px;
+        border: none;
+        border-radius: 4px;
+        background-color: red;
+        color: white;
+}
+.page2{
+    display: flex;
+    width: 100%;
+    height: 30vw;
+    background-color: rgba(0, 0, 0, 0.985);
+    border-bottom: 7px solid #373737;
+}
+.page2-left{
+   position: relative;
+width: 50%;
+height: 100%;
+/* background-color: #fff; */
+white-space: nowrap;
+color: #fff;
+}
+.tbox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.tbox h5{
+    padding-top: 12px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.page2-right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://img.techentice.com/media/2020/06/netflix-1.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+.page3{
+        display: flex;
+        width: 100%;
+        height: 28vw;
+        background-color: rgba(0, 0, 0, 0.985);
+        color: #fff;
+        position: relative;
+    }    
+.page3-left{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://flxt.tmsimg.com/assets/p12991700_b_v13_ad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.page3-right{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.985);
+}
